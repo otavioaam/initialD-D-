@@ -1,7 +1,6 @@
 @use 'variaveis';
 @use 'hero';
 @use 'shows';
-@use 'plans';
 @use 'available-devices';
 @use 'faq';
 @use 'footer';
@@ -148,7 +147,9 @@ body {
 
 
     img {
-        max-width: 100%;
+        width: 800px;
+        border-radius: 5px;
+        padding-right: 50px;
     }
 
     &__text_container {
